@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Huddle Page with Single Introductory Section Solution](https://www.frontendmentor.io/solutions/mobile-first-site-using-css-flexbox-R1qwJCpBE)
 - Live Site URL: [Huddle Page with Single Introductory Section](https://antoniohoutx.github.io/huddle-landing-page-with-single-introductory-section-master/index.html)
 
 ## My process
