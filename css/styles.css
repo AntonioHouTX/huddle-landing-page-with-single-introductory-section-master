@@ -8,6 +8,8 @@ body {
   background-color: hsl(257, 40%, 49%);
   color: white;
   background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 h1 {
@@ -82,7 +84,6 @@ button:active {
   }
 
   .icons {
-    /* height: 2rem; */
     justify-content: center;
     align-content: space-between;
   }
@@ -101,7 +102,7 @@ button:active {
   }
 
   .container {
-    margin: 3rem;
+    margin: 3rem 3rem 0 3rem;
     /* grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr; */
   }
@@ -123,21 +124,21 @@ button:active {
   h1,
   .paragraph,
   .register {
-
     text-align: left;
-    margin-left: 25rem;
+    margin-left: 28rem;
   }
 
   h1 {
     margin-top: 6rem;
-    margin-right: 12rem;
+    margin-right: 8rem;
     font-size: 200%;
   }
 
   .paragraph {
-    margin-right: 10rem;
+    margin-right: 2rem;
   }
   .icons {
     justify-content: flex-end;
+    margin-top: 15rem;
   }
 }
