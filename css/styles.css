@@ -78,7 +78,16 @@ button:active {
 
   .icons {
     display: flex;
-    margin: 1rem 0;
+    margin: 4rem 0 1rem 0;
+    /* height: 2rem; */
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  .fab.fa-facebook-f,
+  .fab.fa-twitter,
+  .fab.fa-instagram {
+    margin: 0 1rem;
   }
 }  
 
@@ -88,12 +97,4 @@ button:active {
   body {
     background-image: url(../images/bg-desktop.svg);
   }
-}
-
-.attribution {
-  font-size: 11px; text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
