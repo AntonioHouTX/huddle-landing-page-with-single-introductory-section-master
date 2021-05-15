@@ -103,8 +103,6 @@ button:active {
 
   .container {
     margin: 3rem 3rem 0 3rem;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr; */
   }
 
   main {
