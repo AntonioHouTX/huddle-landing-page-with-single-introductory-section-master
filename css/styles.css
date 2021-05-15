@@ -32,10 +32,20 @@ button:active {
   background-color: hsl(300, 69%, 71%);
 }
 
+.attribution {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* Mobile Version */
 @media screen and (min-width: 375px){
   body {
-    background-image: url(images/bg-mobile.svg);
+    background-image: url(../images/bg-mobile.svg);
   }
 
   .container {
@@ -65,16 +75,19 @@ button:active {
   .register {
     text-align: center;
   }
+
+  .icons {
+    display: flex;
+    margin: 1rem 0;
+  }
 }  
 
 
 /* Desktop Version */
 @media screen and (min-width: 1025px){
   body {
-    background-image: url(images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
   }
-
-
 }
 
 .attribution {
